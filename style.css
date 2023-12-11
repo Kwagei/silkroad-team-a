@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+header {
+    background-color: #000000;
+    opacity: 0.6;
+    color: white;
+}
+
+body {
+    background-image: url('images/home.jpg');
+    /* background-image: linear-gradient(rgba(0,0,50,0.1), rgba(0,0,0,1)), url(images/home.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.body h1 {
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.top {
+    background: rgb(92, 90, 90);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.top2 {
+    background: rgb(71, 71, 71);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.burger {
+    color: aqua;
+    border: 2px solid aqua;
+}
+
+.filter {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.search input {
+    padding: 10px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(230, 224, 224);
+    /* width: 320px; */
+}
+
+.material-symbols-outlined {
+    left: 20px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20%;
+    opacity: 0.6;
+    color: white;
+    margin-top: 10rem;
+}
+
+.button button {
+    background: blueviolet;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
