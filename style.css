@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background: url('./img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+.wrapper{
+    font-family: 'Poppins';
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    /* flex-basis: 10rem; */
+    height: 100px;
+    opacity: 0.6;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+.header-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.header-btn button{
+    width: 130px;
+    padding: 2px;
+  border: none;
+  font-size: 10px;
+    border-radius: 5px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.project-title{
+    height: 40px;
+    flex-grow: 30rem;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    /* border: 2px solid red; */
+}
+.project-title h1{
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.navigation{
+    flex-basis: 70rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gold; */
+    margin-left: 20px;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+.bar-one{
+    display: flex;
+    gap: 30px;
+}
+.bar-two{
+    display: flex;
+}
+.bar-two h4{
+    font-size: 12px;
+    /* border-right: 1px solid white; */
+    margin-right: 5px;
+    font-weight: 500;
+}
+.bar-two h5{
+    /* border-left: 2px solid white; */
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 10px;
+}
+hr{
+    color: white;
+    height: 5px;
+    width: 3px;
+    /* font-size: 0px; */
+}
+.intro-box{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20rem;
+    /* background-color: violet; */
+    /* gap: 30px; */
+    margin-top: 15rem;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    /* height: 38px; */
+    margin: 0.7rem auto;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.intro-text{
+    display: flex;
+    justify-content: center;
+}
+.intro-text h1{
+    font-weight: 600;
+}
+.intro-search{
+    display: flex;
+    width: 53.1%;
+    /* margin-right: 0.1rem; */
+    background-color: rgba(7, 7, 7, 0.774);
+}
+.intro-search i{
+    margin-left: 1.5rem;
+}
+.intro-search input{
+    width: 30rem;
+    border: none;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    padding-left: 0.3rem;
+    background-color: transparent;
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+    font-size: 15px;
+
+}
+.material-symbols-outlined{
+    color: white;
+}
+.intro-filter{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: right;
+}
