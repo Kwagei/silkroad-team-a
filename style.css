@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .general-container {
+    background-color: red;
+} */
+
+.tansparent-top-div {
+    color: white;
+    background-color: #333434;
+    height: 150px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-transparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 80vw;
+}
+
+.silkroad-badge {
+    background-color: #191818;
+    /* border: 1px solid red; */
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.home-and-register {
+    display: flex;
+    border-bottom: 1px solid silver;
+    margin: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    width: 60vw;
+    /* border: 1px solid red; */
+}
+
+.login-div {
+    /* border: 1px solid red; */
+    margin-left: 30px;
+}
+
+.home-P-div {
+    display: flex;
+}
+
+.properties {
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.login-register {
+    display:  flex;
+    justify-content: space-evenly;
+}
+
+.login {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.bar {
+    /* border: 1px solid red; */
+    height: 20px;
+    font-size-adjust: 20px;
+    font-size: 25px;
+}
+
+.register {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.post-property-div {
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+}
+
+.post-property-btn {
+    background-color: #023ef3;
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 0 grey;
+    cursor: pointer;
+}
+
+.center-div {
+    /* border: 1px solid red; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+.real-p {
+    font-size: 35px;
+    /* border: 1px solid red; */
+    margin-bottom: 6px;
+
+}
+
+.search-input input {
+    width: 500px;
+    height: 26px;
+}
+
+.search-input {
+    position: relative;
+    display: inline-block;
+}
+
+.latest-posting-div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+    /* border: 1px solid red; */
+}
+
+.latest-posting-div div p {
+    margin-bottom: 5px;
+}
+
+.circle-arrow {
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+.filter {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+  
+input[type="text"] {
+    padding-left: 40px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+
+  
+i.ri-search-2-line {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 20px;
+}
+
