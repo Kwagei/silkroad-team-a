@@ -166,6 +166,15 @@ body{
     .navigation{
         display: none;
     }
+    .intro-filter{
+        display: flex;
+        padding: 20px;
+        justify-content: right;
+    }
+    .intro-filter a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 
@@ -225,12 +234,12 @@ body{
     .bar-two{
         display: flex;
     }
-    .bar-two h4{
+    #login{
         font-size: 15px;
         margin-right: 5px;
         font-weight: 500;
     }
-    .bar-two h5{
+    #register{
         margin-left: 5px;
         font-weight: 400;
         font-size: 15px;
@@ -268,4 +277,5 @@ body{
         color: white;
         text-decoration: none;
     }
+    
 }
