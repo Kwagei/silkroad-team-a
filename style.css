@@ -116,7 +116,6 @@
 
 .real-p {
     font-size: 35px;
-    /* border: 1px solid red; */
     margin-bottom: 6px;
 
 }
@@ -136,7 +135,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 13rem;
-    /* border: 1px solid red; */
 }
 
 .latest-posting-div div p {
@@ -156,7 +154,6 @@
 }
 
 .filter {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: right;
     align-items: center;

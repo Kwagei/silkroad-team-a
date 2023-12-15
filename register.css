@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .general-container {
+    padding: ;
+} */
+
+.topest-div-transparent {
+    color: white;
+    background-color: #333434;
+    height: 120px;
+    opacity: 0.5;
+    display: flex;
+}
+
+.silk-ham-div {
+    /* border: 1px solid red; */
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F1112;
+}
+
+.silkroad-badge {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    font-weight: bolder;
+}
+
+.hamburger-menu {
+    border: 2px solid #20B2AA;
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    color: #20B2AA;
+    
+}
+
+.home-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px;
+}
+
+.home {
+    color: grey;
+}
+
+.home-home {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.submit-ad {
+    background-color: #0633b9;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 130px;
+    border-radius: 7px;
+}
+
+.register-form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+.full-name input {
+    width: 100%;
+}
+
+.phone input {
+    position: relative;
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding-left: 35px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+i.ri-phone-line {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 20px;
+}
+
+
+.phone-n .ri-arrow-down-s-line {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+.form-field {
+    position: relative;
+    margin-bottom: 20px;
+    color: gray;
+}
+  
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px; 
+    width: 100%;
+
+}
+
+.input-field {
+    padding-left: 30px; 
+    width: 100%;
+    background-color: #D7DCE2;
+    border: none;
+    height: 25px;
+}
+  
+.register-btn button {
+    background-color: #646d75; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.social-media i {
+    margin-right: 5px;
+    font-size: xx-large;
+    margin-left: 5px;
+}
+
+.social-media {
+    place-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #20B2AA;
+}
