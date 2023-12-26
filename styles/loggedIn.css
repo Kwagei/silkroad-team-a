@@ -5,7 +5,7 @@
     font-family: 'Poppins';
 }
 body{
-    background: url('home.jpg');
+    background: url('/home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
@@ -194,7 +194,7 @@ body{
         flex-direction: column;
     }
     .nav{
-        height: 30px;
+        height: 40px;
         display: flex;
         justify-content: space-between;
         margin-left: 20px;
@@ -216,6 +216,10 @@ body{
         border-radius: 5px;
         color: white;
         background-color: rgb(65, 105, 225);
+    }
+    .bars{
+        display: flex;
+        height: 40px;
     }
     .bar-one{
         display: flex;

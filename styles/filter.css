@@ -23,6 +23,10 @@ header {
     align-items: center;
     padding-top: 25px;
 }
+.bars{
+    display: flex;
+    height: 40px;
+}
 
 .links {
     display: flex;

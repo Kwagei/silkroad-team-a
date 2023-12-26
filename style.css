@@ -21,8 +21,12 @@ body{
     background-color: rgba(22, 20, 20, 0.755);
 
     /* background: transparent; */
-    height: 120px;
+    height: 100px;
     opacity: 0.9;
+    /* justify-content: center; */
+    /* align-items: center; */
+    transition: all;
+    background-color: rgba(8, 8, 8, 0.76);
 }
 .material-symbols-outlined{
     color: white;
@@ -130,6 +134,7 @@ body{
     padding-bottom: 0.5rem;
     font-size: 15px;
 }
+
 .lastest-posting{
     display: flex;
     flex-grow: 1;
@@ -181,8 +186,10 @@ body{
 
 @media (min-width: 1010px){
     .header{
-     background-color: rgba(7, 7, 7, 0.774);
-
+     background-color: rgba(7, 7, 7, 0.849);
+     background: transparent;
+     /* background-color: red; */
+        /* opacity: 0.7; */
     }
     .display-mobile{
         display: none;
@@ -203,12 +210,13 @@ body{
         flex-direction: column;
     }
     .nav{
-        height: 30px;
+        height: 40px;
         display: flex;
         justify-content: space-between;
         margin-left: 20px;
         border-bottom: 1px solid white;
         color: white;
+        /* background-color: blueviolet; */
     }
     .lastest-posting{
         margin-top: 160px;
@@ -226,10 +234,14 @@ body{
         color: white;
         background-color: rgb(65, 105, 225);
     }
+    .bars{
+        display: flex;
+        /* background-color: gold; */
+        height: 40px;
+    }
     .bar-one{
         display: flex;
         gap: 30px;
-        padding-bottom: 10px;
     }
     .bar-two{
         display: flex;
