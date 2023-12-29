@@ -101,14 +101,26 @@ select {
     justify-content: space-between;
     margin-top: 30px;
     align-items: center;
+    /* background-color: green; */
 }
-
+.range{
+    /* display: flex;
+    flex-direction: column; */
+    /* flex-basis: 18rem; */
+    /* width: 100%; */
+    gap: 0px;
+    margin: 0;
+    padding: 0;
+}
 .range label {
     color: white;
 }
 
 .range input {
     color: blue;
+    flex-grow: 2;
+    width: 375px;
+    /* width: 100%; */
 }
 
 .button button {
